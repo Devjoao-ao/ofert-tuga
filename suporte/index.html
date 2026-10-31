@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Suporte ao Comprador | Serralheiro PRO</title>
+<meta name="description" content="Fala connosco por e-mail ou WhatsApp para qualquer dúvida sobre a tua compra."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap"/>
+<link rel="stylesheet" href="../assets/styles.css"/>
+<style>
+  .page{min-height:100vh;display:flex;align-items:center;justify-content:center}
+  .contacts{display:grid;gap:1rem;margin-top:2.5rem;text-align:left}
+  @media(min-width:640px){.contacts{grid-template-columns:1fr 1fr}}
+  .contact{display:block;border:1px solid var(--border);background:var(--card);padding:1.5rem;text-decoration:none;color:inherit;transition:border-color .2s}
+  .contact:hover{border-color:var(--primary)}
+  .contact small{display:block;font-size:.7rem;font-weight:800;text-transform:uppercase;color:var(--muted-foreground)}
+  .contact strong{display:block;margin-top:.4rem;font-size:1.15rem;word-break:break-word}
+  .contact span{display:block;margin-top:.6rem;font-size:.85rem;color:var(--muted-foreground)}
+</style>
+</head>
+<body>
+<main class="sales-page overflow-hidden bg-background text-foreground">
+<section class="page section-band px-4 py-14 text-center sm:px-5">
+<div class="mx-auto max-w-3xl">
+<h1 class="font-display text-4xl font-black uppercase leading-none sm:text-6xl">
+<span class="text-highlight">Suporte</span><br/>ao comprador</h1>
+<p class="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-muted-foreground sm:text-lg">Tens alguma dúvida ou problema com a tua compra? Fala connosco por WhatsApp ou e-mail.</p>
+<div class="contacts">
+<a class="contact" href="https://wa.me/244923101084?text=Ol%C3%A1!%20Comprei%20os%20projetos%20de%20serralharia%20e%20preciso%20de%20ajuda%20com%20o%20meu%20acesso." target="_blank" rel="noopener noreferrer">
+<small>WhatsApp</small>
+<strong class="text-primary">+244 923 101 084</strong>
+<span>Clica para abrir a conversa no WhatsApp.</span>
+</a>
+<a class="contact" href="mailto:support@nuvex.ao?subject=Suporte%20-%20Serralheiro%20PRO">
+<small>E-mail</small>
+<strong class="text-primary">support@nuvex.ao</strong>
+<span>Indica o e-mail usado na compra para te ajudarmos mais depressa.</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+</body>
+</html>
